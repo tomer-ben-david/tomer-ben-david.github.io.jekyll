@@ -22,9 +22,17 @@ categories: dev,datascience
 *Pig*
 
 1. Kind of a `scripting language` for map reduce jobs.
-1. 
 
-*
+*Impala*
+
+1. Instead of start, read data, write data, those are living servers on hadoop cluster, so much faster (not standard `mapreduce`, not even `mapreduce`)
+1. Query language similar to `HiveQL`
+
+**Other Components**
+1. Data transfers - `Flume`, `Scoop`
+1. Workflow management - `oozie`, `YARN`
+
+
 
 {% highlight ruby %}
 
