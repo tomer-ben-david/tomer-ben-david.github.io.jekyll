@@ -1,5 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: Tomer Ben David on Software Development
+description: (And other non important stuff such as life, death, philosophy, history, physics, and math).
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
@@ -7,8 +7,8 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://tomer-ben-david.github.io'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://tomer-ben-david.github.io'
+author:         'Tomer Ben David'

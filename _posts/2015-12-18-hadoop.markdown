@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Hadoop keypoints for beginners"
+date:   2013-11-10 10:18:00
+categories: dev,datascience
+---
+
+**Jobs management**
+
+1. Master sends the actual `jar` to be executed to data nodes.
+1. Hadoop sends data from mappers to reducers even before `mappers` finished in order to have `reducers` be able to already start working.
+1. `hadoop jar` is the command that will run your jar (you should have already uploaded it to hadoop cluster with `-put`
+1. Show list of running jobs `mapred job -list`
+
+**Scripting languages**
+
+*Hive*
+
+1. Kind of an `SQL` for map reduce jobs.
+1. Can add user defined functions.
+
+*Pig*
+
+1. Kind of a `scripting language` for map reduce jobs.
+1. 
+
+*
+
+{% highlight ruby %}
+
+test this
+def hiThere(): This => Unit {
+  val a = 1
+}
+
+{% endhighlight %}
+
+
+```scala
+test this
+def hiThere(): This => Unit {
+  val a = 1
+}
+```
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com
