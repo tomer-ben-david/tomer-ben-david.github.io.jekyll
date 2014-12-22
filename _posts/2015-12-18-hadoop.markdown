@@ -74,7 +74,7 @@ Let's see each of them in an exmaple.
 
 *2. YourMapper*
 
-{%highlight java%}
+{% highlight java %}
   public class YourMapper extends Mapper<LongWritable, Text, Text, IntWritable> { // <InputKey, InputValue, OutputKey, OutputValue>
 
     @Override
@@ -86,11 +86,11 @@ Let's see each of them in an exmaple.
          context.write(context, new Text(word), new IntWritable(1)); // write mapper output.
   	  }
     }
-{%endhighlight%}
+{% endhighlight %}
 
 *3. YourReducer*
 
-{%highlight java%}
+{% highlight java %}
 public class YourReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 
   /**
@@ -109,7 +109,7 @@ public class YourReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 
   }
 
-{%endhighlight%}
+{% endhighlight %}
 
 **Tool Runner**
 Formalizes the command line arguments into hadoop jobs so you don't need to mess with them yourself they will have the same pattern.
@@ -164,14 +164,21 @@ A command to distribute files to all mappers so that when they start up they wil
 you can skip using this api and just pass `-files conf1.conf conf2.conf ...` to `toolrunner` and it will distribute te in the `hadoop jar` task.
 Note that when mapper loads this file it would not need any directories it simply loads the filename no directory needed (mapper will have it in current directory).
 
+**Counters**
+Maps, Reducers can read and write `(group, name) --> int-value` should be used only for management not business logic (each of them can read any of the other). (not atomic).
+
 **Useful hadoop commands**
 * `hadoop fs -rm -r myoutputdir`
 * `hadoop fs -cat myoutputdir/part-r-00000 | head`
-* `hadoop jar withtoolrunner.jar YourJobMain -D someparam=true inputdir outputdir`
+* `hadoop jar myjob.jar YourJobMain -D someparam=true inputdir outputdir`
+* `hadoop jar myjob.jar MyJobMain -fs=file:/// -jt=local inputdir outputdir` (run local job)
 
 **Useful keypoints**
 * Every mapper communicates with all reducers (potentially sending data to all of them).
 * `Shuffle` - communication from mappers to reducers.
+
+**CAUSION**
+* When you receive parameter to your reduce job `Text value` multiple times (obviously) then it might be the same reference but the value can be different (it will reuse the param reference to mapper but will change hte value so **do not** store the local `value` it might mean different in different runs.
 
 **Scripting languages**
 
