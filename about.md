@@ -3,4 +3,4 @@ layout: page
 title: About me 
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I love learning.  I love math (though not good at it), but when I get enlightements in it, it appears to be the most beautiful subject to learn.
