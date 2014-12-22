@@ -119,7 +119,7 @@ Formalizes the command line arguments into hadoop jobs so you don't need to mess
 map reduce are inherently stateless (pure functions), very nice, you should stick to it as much as possible. however if you need state persisted (but reallymwar, try to find other ways before reverting to state) you will use the `public void setup(Context context)` method its a standard setup method.  Likewise you have a `cleanup` method which is called after map/reduce finishes.  It's quiete common that in `cleanup` if you used some states you will write out the state to disk.
 *Note* In order to use `toolrunner` your job main class should `extends Configured implements Tool`  Then instead of `main` method you will `override` the `run` method inherited from `toolrunner`.
 
-{% highglight java %}
+{% highlight java %}
 public class YourJob extends Configured implements Tool {
 
 	@Override
@@ -167,6 +167,8 @@ Note that when mapper loads this file it would not need any directories it simpl
 **Counters**
 Maps, Reducers can read and write `(group, name) --> int-value` should be used only for management not business logic (each of them can read any of the other). (not atomic).
 
+`context.getCounter("counter-group","counter-name").increment(1);`
+
 **Useful hadoop commands**
 * `hadoop fs -rm -r myoutputdir`
 * `hadoop fs -cat myoutputdir/part-r-00000 | head`
@@ -176,6 +178,7 @@ Maps, Reducers can read and write `(group, name) --> int-value` should be used o
 **Useful keypoints**
 * Every mapper communicates with all reducers (potentially sending data to all of them).
 * `Shuffle` - communication from mappers to reducers.
+* `Block Size` - Files are split to blocks you can any file size it would just get split into blocks (64MB / 128MB ...)
 
 **CAUSION**
 * When you receive parameter to your reduce job `Text value` multiple times (obviously) then it might be the same reference but the value can be different (it will reuse the param reference to mapper but will change hte value so **do not** store the local `value` it might mean different in different runs.
