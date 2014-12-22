@@ -117,6 +117,61 @@ Formalizes the command line arguments into hadoop jobs so you don't need to mess
 
 **State VS Stateless**
 map reduce are inherently stateless (pure functions), very nice, you should stick to it as much as possible. however if you need state persisted (but reallymwar, try to find other ways before reverting to state) you will use the `public void setup(Context context)` method its a standard setup method.  Likewise you have a `cleanup` method which is called after map/reduce finishes.  It's quiete common that in `cleanup` if you used some states you will write out the state to disk.
+*Note* In order to use `toolrunner` your job main class should `extends Configured implements Tool`  Then instead of `main` method you will `override` the `run` method inherited from `toolrunner`.
+
+{% highglight java %}
+public class YourJob extends Configured implements Tool {
+
+	@Override
+	public int run(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	.
+	.
+}
+{% endhighlight %}
+You still need the `main` method as you need to explicitly run the `run` method.
+
+```java
+public static void main(String[] args) throws Exception {
+  int exitCode = ToolRunner.run(new Configuration(), new WordCount(), args);
+  System.exit(exitCode);
+}
+```
+
+**Combiner the local mapper mini-reducer**
+In wordcount mapper resulted with `1` for every word.  Which is kind of silly.  In order to reduce the noise and communication between mappers and reducers you can use a combiner to combine the mapper results.
+
+`job.setCombinerClass(MiniReducer.class)` it can actually be your standard `reducer`.
+
+mapper: `map(pointer,house) --> map(house,1)`
+mapper: `map(pointer,house) --> map(house,1)`
+combiner: `map(house,1) --> map(house,2)` Note: Combiner runs locally in the mapper.
+reducer: `map(house,1) --> map(house,5)`
+
+**No map reduce, simple HDFS access**
+You can also access the `HDFS` programatically without any relation to map/reduce.
+
+{% highlight java %}
+Filesystem.get(conf);
+Path p = new Path("/somepath/file");
+{% endhighlight %}
+
+**Distributed Cache**
+A command to distribute files to all mappers so that when they start up they will already have the data locally (usually for configuration or other side data).
+`DistributedCache.addCacheFile..` and more commands see its API for more info.
+you can skip using this api and just pass `-files conf1.conf conf2.conf ...` to `toolrunner` and it will distribute te in the `hadoop jar` task.
+Note that when mapper loads this file it would not need any directories it simply loads the filename no directory needed (mapper will have it in current directory).
+
+**Useful hadoop commands**
+* `hadoop fs -rm -r myoutputdir`
+* `hadoop fs -cat myoutputdir/part-r-00000 | head`
+* `hadoop jar withtoolrunner.jar YourJobMain -D someparam=true inputdir outputdir`
+
+**Useful keypoints**
+* Every mapper communicates with all reducers (potentially sending data to all of them).
+* `Shuffle` - communication from mappers to reducers.
 
 **Scripting languages**
 
