@@ -5,6 +5,14 @@ date:   2013-11-10 10:18:00
 categories: dev,datascience
 ---
 
+#### Key Concepts
+
+* Every mapper communicates with all reducers (potentially sending data to all of them).
+* `Shuffle` - communication from mappers to reducers.
+* `Block Size` - Files are split to blocks you can any file size it would just get split into blocks (64MB / 128MB ...)
+* `Partitioner` - Splits map result to reducer the by `hash` so same keys always reach same reducers.  **same key will always reach same reducer**.
+* If you want your result reside in single file (cant be multiple blocks) you need a **single reducer**.
+
 #### Hadoop default configuration
 
 * `/etc/hadoop/conf`
@@ -182,11 +190,8 @@ Maps, Reducers can read and write `(group, name) --> int-value` should be used o
 * `hadoop jar myjob.jar YourJobMain -D someparam=true inputdir outputdir`
 * `hadoop jar myjob.jar MyJobMain -fs=file:/// -jt=local inputdir outputdir` (run local job)
 
-#### Useful keypoints
-
-* Every mapper communicates with all reducers (potentially sending data to all of them).
-* `Shuffle` - communication from mappers to reducers.
-* `Block Size` - Files are split to blocks you can any file size it would just get split into blocks (64MB / 128MB ...)
+#### Partitioners
+* `TotalOrderPartitioner` so that you can partition the data and still preserve some order in the different files (like a-h file1 h-t partition 2 and still preserve that the files are in similar size not most of the data in one file (for example if you have many words starting with m and only one starting with b)).
 
 #### CAUSION
 
