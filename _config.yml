@@ -4,7 +4,7 @@ meta_description: "Tomer Ben David on Software Development"
 
 markdown: redcarpet
 highlighter: pygments
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html
 logo: false
 paginate: 15
 baseurl: /
