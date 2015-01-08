@@ -2,6 +2,6 @@
 layout: post
 title:  "Hadoop job with scalding on docker"
 date:   2015-01-08 22:18:00
-categories: scala,functional-programming
+categories: scala,functional-programming,hadoop
 ---
 {% gist tomer-ben-david/ded02a248ce9995d5337#file-run-hadoop-job-with-scalding-on-docker-markdown %}
