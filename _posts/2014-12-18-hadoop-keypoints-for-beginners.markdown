@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hadoop keypoints for beginners"
-date:   2014-11-10 10:18:00
+date:   2014-12-18 10:18:00
 categories: dev,datascience
 ---
 
