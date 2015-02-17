@@ -9,7 +9,18 @@ Scalding makes hadoop job writing much smaller and compact.  It comes at a price
 
 In scalding you must start thinking in `pipes` (best known in unix world as `shell pipes`), take input do operations produce output and pass on to the next pipe.  A `pipe` is basically a stream, the basic workflow, is that you create a stream of inputs (be it a book lines) then you operate on it, create an `output pipe` then have another operation work on that `pipe` and another one, until at the end of this process you write your results to `HDFS`.
 
-Let's see a basic example, have a look at [scalding-counters-example](https://github.com/tomer-ben-david-examples/scalding-counters-example)
+Note, to see the full sample source code have a look at [scalding-counters-example](https://github.com/tomer-ben-david-examples/scalding-counters-example)
+
+Before we dig in the source the flow you are going to see is similar to the following pseudo code:
+
+{% highlight scala linenos %}
+MyJob extends Job
+Read input into a pipe
+do work on pipe return new pipe
+do work on pipe return new pipe
+do work on pipe return new pipe
+write results to hdfs
+{% endhighlight %}
 
 {% highlight scala linenos %}
 class ScaldingCounterExampleJob(args : Args) extends Job(args) {
