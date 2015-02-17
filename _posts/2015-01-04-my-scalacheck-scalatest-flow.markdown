@@ -3,6 +3,7 @@ layout: post
 title:  "My scalatest scalacheck flow"
 date:   2015-01-04 22:18:00
 categories: scala,functional-programming
+comments: true
 ---
 #### Introduction
 1. I start with generating `simple values` required for my `class hierarchy`, In this phase I generate `Long` `Double` values.

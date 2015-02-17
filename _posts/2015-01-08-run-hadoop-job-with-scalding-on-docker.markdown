@@ -2,6 +2,7 @@
 layout: post
 title:  "Hadoop job with scalding on docker"
 date:   2015-01-08 22:18:00
+comments: true
 categories: scala,functional-programming,hadoop
 ---
 Explaining how to run docker with hadoop and then run a sample scalding hadoop job on it.

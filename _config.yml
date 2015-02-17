@@ -9,6 +9,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://tomer-ben-david.github.io'
+comments: true
 
 # Details for the RSS feed generator
 url:            'http://tomer-ben-david.github.io'

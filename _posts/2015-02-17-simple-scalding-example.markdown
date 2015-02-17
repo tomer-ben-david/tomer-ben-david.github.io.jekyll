@@ -3,6 +3,7 @@ layout: post
 title:  "Simple scalding example"
 date:   2015-02-17 22:18:00
 categories: scala,functional-programming,scalding,hadoop
+comments: true
 ---
 Scalding makes hadoop job writing much smaller and compact.  It comes at a price, the price is that you are no longer in easy to use `java` mature world but enter the wilderness of scala (for good and bad).
 
