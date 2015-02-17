@@ -22,6 +22,8 @@ do work on pipe return new pipe
 write results to hdfs
 {% endhighlight %}
 
+And the actual scala code:
+
 {% highlight scala linenos %}
 class ScaldingCounterExampleJob(args : Args) extends Job(args) {
   val stat = Stat("alice-counter")
