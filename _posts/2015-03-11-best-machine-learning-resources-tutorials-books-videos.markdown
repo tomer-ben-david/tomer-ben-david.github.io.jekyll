@@ -5,4 +5,4 @@ date:   2015-11-11 22:18:00
 categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
-# [Probabilistic Programming & Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+1. [Probabilistic Programming & Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
