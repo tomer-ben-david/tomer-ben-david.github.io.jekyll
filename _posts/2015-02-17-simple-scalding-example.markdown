@@ -43,3 +43,5 @@ class ScaldingCounterExampleJob(args : Args) extends Job(args) {
 1. We create an input `pipe` from a bunch of words by using `TypedPipe.from("bunch of words")`
 1. Now that we have a pipe we can start doing operations on it that's the `flatMap`, `groupBy` ...
 1. At the end we write the output to `HDFS` with `.write`
+
+Caveats with this naive implementation (which people tend to stick with) is that its difficult to unit test.  Try to test the internal `line.split` or `flatMap`, practically impossible.  For this we will use the `scalding externalized operation` design pattern (I really don't understand why after all those years of good programming practices we had to go backwards into untestable code only to invent new design patterns to solve this naive problem of unit testing our code, there should be no design pattern for that, this is how we should write our code originally, in anyway we will presnet this pattern in future posts.
