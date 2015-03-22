@@ -6,3 +6,4 @@ categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
 1. [Probabilistic Programming & Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+1. [Statistics done wrong - book](http://www.amazon.com/Statistics-Done-Wrong-Woefully-Complete/dp/1593276206)
