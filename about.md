@@ -2,5 +2,4 @@
 layout: page
 title: About me 
 ---
-
-I love learning.  I love math (though not good at it), but when I get enlightements in it, it appears to be the most beautiful subject to learn.
+As hanoch levin said to the room entered a person alas a paradox when he entered he was meant to exit!
