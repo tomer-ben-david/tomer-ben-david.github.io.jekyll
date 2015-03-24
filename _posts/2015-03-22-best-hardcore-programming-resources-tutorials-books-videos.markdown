@@ -10,3 +10,4 @@ comments: true
 1. [Julia Evans blog - Programming investigated under the hoods](http://jvns.ca/)
 1. [Linux performance observability tools](http://www.brendangregg.com/Perf/linux_observability_tools.png)
 1. [New Relic - Java apps preformance analytics](http://newrelic.com)
+1. [Become a programmer motherfucker](http://programming-motherfucker.com/)
