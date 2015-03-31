@@ -6,6 +6,7 @@ categories: programming
 comments: true
 ---
 1. [Learn vim while playing](http://vim-adventures.com/)
+1. [CAP and ACID confusion](http://thislongrun.blogspot.co.il/)
 1. [Eli Bendersky's blog - Deep technical articles](http://eli.thegreenplace.net/tag/articles)
 1. [Julia Evans blog - Programming investigated under the hoods](http://jvns.ca/)
 1. [Linux performance observability tools](http://www.brendangregg.com/Perf/linux_observability_tools.png)
