@@ -9,3 +9,4 @@ comments: true
 1. [Dependency Injection In scala](http://di-in-scala.github.io/)
 1. [Scala type system](http://ktoso.github.io/scala-types-of-types/)
 1. [Main scala concepts explained](http://naildrivin5.com/scalatour/)
+1. [Scala conferences](http://lanyrd.com/topics/scala/)
