@@ -14,3 +14,4 @@ comments: true
 1. [Hackers guide to neural networks](http://karpathy.github.io/neuralnets/)
 1. [Deep learning vs machine learning vs..](http://quantombone.blogspot.co.il/2015/03/deep-learning-vs-machine-learning-vs.html)
 1. [Data mining community top resource](http://www.kdnuggets.com/)
+1. [Suspicious correlations](http://t.co/1pOCDyenv2)
