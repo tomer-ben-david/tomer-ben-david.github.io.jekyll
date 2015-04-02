@@ -9,6 +9,7 @@ comments: true
 1. [Dependency Injection In scala](http://di-in-scala.github.io/)
 1. [Error handling best practices in scala](https://tersesystems.com/2012/12/27/error-handling-in-scala/)
 1. [Scala type system](http://ktoso.github.io/scala-types-of-types/)
+1. [Scala view bound](http://stackoverflow.com/questions/4465948/what-are-scala-context-and-view-bounds)
 1. [Alvin Alexander (scala cookbook author) scala recipes](http://alvinalexander.com/scala)
 1. [Main scala concepts explained](http://naildrivin5.com/scalatour/)
 1. [Scala conferences](http://lanyrd.com/topics/scala/)
