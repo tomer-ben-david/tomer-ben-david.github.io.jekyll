@@ -2,4 +2,4 @@
 layout: page
 title: About me 
 ---
-As hanoch levin said to the room entered a person alas a paradox when he entered he was meant to exit!
+Correlation without causation is the root of all evil.
