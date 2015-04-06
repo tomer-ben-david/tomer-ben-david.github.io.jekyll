@@ -5,6 +5,7 @@ date:   2015-03-22 22:18:00
 categories: programming
 comments: true
 ---
+1. [How glibc malloc works](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
 1. [Learn vim while playing](http://vim-adventures.com/)
 1. [CAP and ACID confusion](http://thislongrun.blogspot.co.il/)
 1. [Eli Bendersky's blog - Deep technical articles](http://eli.thegreenplace.net/tag/articles)
