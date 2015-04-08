@@ -6,11 +6,11 @@ categories: programming
 comments: true
 ---
 1. [What is NP Complete](https://www.google.co.il/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=what%20is%20np%20complete)
-1. [Learn vim while playing](http://vim-adventures.com/)
 1. [CAP and ACID confusion](http://thislongrun.blogspot.co.il/)
 1. [Eli Bendersky's blog - Deep technical articles](http://eli.thegreenplace.net/tag/articles)
 1. [Julia Evans blog - Programming investigated under the hoods](http://jvns.ca/)
 1. [Linux performance observability tools](http://www.brendangregg.com/Perf/linux_observability_tools.png)
 1. [New Relic - Java apps preformance analytics](http://newrelic.com)
 1. [Become a programmer motherfucker](http://programming-motherfucker.com/)
+1. [Learn vim while playing](http://vim-adventures.com/)
 1. [How glibc malloc works](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
