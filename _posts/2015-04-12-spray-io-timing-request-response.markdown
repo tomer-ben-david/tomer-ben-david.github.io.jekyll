@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Timing total request response time with spray using metrics"
+title:  "Timing spray total request response time"
 date:   2015-04-12 22:18:00
 categories: scala,functional-programming
 comments: true
