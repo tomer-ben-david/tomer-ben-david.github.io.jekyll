@@ -24,6 +24,7 @@ val requestResponseTimer = RequestResponseTimedMetric("spray.request.response.ti
 `TimedMetric`, warning, magic behind that, we are going to code that class below.
 
 #### Update code to use the timed metric
+{% highlight scala %}
 val helloRoute = path("/hello") {
     get {
         requestResponseTimer {
