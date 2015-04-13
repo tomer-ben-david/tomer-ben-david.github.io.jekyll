@@ -19,7 +19,9 @@ val helloRoute = path("/hello") {
 {% endhighlight %}
 
 #### Create metric
+{% highlight scala %}
 val requestResponseTimer = RequestResponseTimedMetric("spray.request.response.timer", metricRegistry).time
+{% endhighlight %}
 
 `TimedMetric`, warning, magic behind that, we are going to code that class below.
 
