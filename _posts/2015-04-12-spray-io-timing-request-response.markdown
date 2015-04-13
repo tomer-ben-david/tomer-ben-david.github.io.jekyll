@@ -5,7 +5,7 @@ date:   2015-04-12 22:18:00
 categories: scala,functional-programming
 comments: true
 ---
-So you wish to measure how much the `request-response` cycle takes in spray and add it to your set of `metrics`? You have come to the right place, here is the recipe for that.  We are using [codahale-metrics](https://github.com/dropwizard/metrics) as our `metrics` framework.
+So you wish to measure how much the `request-response` cycle takes in spray, not only that you wish even to add it to your set of `metrics`? You have come to the right place, here is the `complex` recipe for that (there is no simple recipe it's going to be damn complex), that's it life with spray tastes both good and bad this is the effect of `scala` + `DSL` + `reactive` + `continuations` complex coding at the framework level and then `"easier"` life on the client side, although not always the case, i'm not sure life with servlets were more complex on client side they might have been even more readable, but in anyway its a good mind bending practice so the neurons won't die.  In anyway, we are using [codahale-metrics](https://github.com/dropwizard/metrics) as our `metrics` framework.
 
 ### The routing directive
 This is the routing directive we wish to measure
