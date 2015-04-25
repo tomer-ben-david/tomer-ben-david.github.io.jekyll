@@ -5,7 +5,8 @@ date:   2015-04-02 22:18:00
 categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
-1. [upload some data, (massage before and after) choose chart, share it](http://plot.ly)
+1. [RAW upload some data, (massage before and after) choose chart, share it](http://raw.densitydesign.org/)
+1. [plot.ly upload some data, (massage before and after) choose chart, share it](http://plot.ly)
 1. [Good machine learning videos](https://medium.com/@mattfogel/the-7-best-data-science-and-machine-learning-podcasts-e8f0d5a4a419)
 1. [Machine Learning: Hands-On for Developers and Technical Professionals by Jason Bell](http://amzn.com/1118889061)
 1. [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits](https://www.youtube.com/watch?v=JnJq3Py0dyM)
