@@ -5,6 +5,7 @@ date:   2015-04-25 22:18:00
 categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
+1. [Udacity d3 visualizations great course](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 1. [RAW upload some data, (massage before and after) choose chart, share it](http://raw.densitydesign.org/)
 1. [plot.ly upload some data, (massage before and after) choose chart, share it](http://plot.ly)
 1. [Good machine learning videos](https://medium.com/@mattfogel/the-7-best-data-science-and-machine-learning-podcasts-e8f0d5a4a419)
