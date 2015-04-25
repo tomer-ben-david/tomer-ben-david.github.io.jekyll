@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Best machine learning resources - tutorials, videos, books"
-date:   2015-04-02 22:18:00
+date:   2015-04-25 22:18:00
 categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
