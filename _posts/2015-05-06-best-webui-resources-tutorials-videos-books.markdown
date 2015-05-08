@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Best WEBUI resources - tutorials, videos, books"
-date:   2015-05-01 22:18:00
+date:   2015-05-06 22:18:00
 categories: programming, web, UI
 comments: true
 ---
+1. [xtensio amazing for building your company web page!!](http://xtensio.com/)
 1. [Parse.com backend api without coding](http://parse.com)
 1. [Bootstrap front end binded to backend](http://blog.miguelgrinberg.com/post/writing-a-javascript-rest-client)
 1. [Bootstrap series](https://www.youtube.com/playlist?list=PL0qaQSYB_0TD-7tNkfMnJ0DCFJVjBNF8G)
+1. [angular js - all aspects total js framework](https://angularjs.org/)
 1. [Build cool webapps with templates with rails](https://www.baserails.com/)
