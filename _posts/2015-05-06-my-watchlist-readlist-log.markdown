@@ -22,3 +22,4 @@ Excellent talk by an excellent speaker.  It's a must for anyone interested in ac
 * [Ray Kurzweil - Exponential Finance 2014](https://youtu.be/vnyQWr8hk0A)
 * [How to win friends - and influence people](http://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034/ref=pd_cp_b_1?ie=UTF8&refRID=0B57XGE9V3RNY2N40767)
 This book is from the 20th century 30's, it has change the american culture.  I expected this to be `old` / archeic non friendly / but as i could not ignore the 1300 and more positive reviews on amazon I decided to read it and its truely clear and amazing and most likely mostly correct.
+
