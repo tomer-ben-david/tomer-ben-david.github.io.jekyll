@@ -9,6 +9,7 @@ comments: true
 1. [KenScambler - clear but deep functional theory! (to really understand map,flatmap,for - I mean for real!](https://twitter.com/KenScambler)
 1. [KenScambler - Essense of Iterator pattern](https://github.com/kenbot/MSUG-Essence-Iterator-Pattern)
 1. [Introduction to category theory great lecture](https://www.youtube.com/watch?v=jDhMDgU7Koc)
+1. [The essence of functional programming - paper](http://www.eliza.ch/doc/wadler92essence_of_FP.pdf)
 1. [Scala skeleton project](https://github.com/marconilanna/scala-boilerplate)
 1. [Databricks scala style guide](https://github.com/databricks/scala-style-guide)
 1. [Play skeleton project](https://github.com/marconilanna/play-bootstrap)
