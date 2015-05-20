@@ -8,6 +8,8 @@ comments: true
 1. [Learn scala by practicing](http://scala-exercises.47deg.com/)
 1. [KenScambler - clear but deep functional theory! (to really understand map,flatmap,for - I mean for real!](https://twitter.com/KenScambler)
 1. [KenScambler - Essense of Iterator pattern](https://github.com/kenbot/MSUG-Essence-Iterator-Pattern)
+1. [Introduction to category theory great lecture](https://www.youtube.com/watch?v=jDhMDgU7Koc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jDhMDgU7Koc" frameborder="0" allowfullscreen></iframe>
 1. [Scala skeleton project](https://github.com/marconilanna/scala-boilerplate)
 1. [Databricks scala style guide](https://github.com/databricks/scala-style-guide)
 1. [Play skeleton project](https://github.com/marconilanna/play-bootstrap)
@@ -24,5 +26,4 @@ comments: true
 1. [The essence of iterator pattern - paper (to really understand map,flatmap,for - really)](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf)
 1. [Scala context and view bounds](http://stackoverflow.com/questions/4465948/what-are-scala-context-and-view-bounds)
 1. [Effective Actors By JAmie Allen](https://vimeo.com/65556264)
-1. [Introduction to category theory great lecture](https://www.youtube.com/watch?v=jDhMDgU7Koc)
 1. [Jamey allen on what you need to know about lambda](http://www.slideshare.net/jaxLondonConference/what-you-need-to-know-about-lambdas-jamie-allen-typesafe)
