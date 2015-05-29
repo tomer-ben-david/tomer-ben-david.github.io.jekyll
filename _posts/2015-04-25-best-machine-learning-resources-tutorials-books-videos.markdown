@@ -5,6 +5,7 @@ date:   2015-04-25 22:18:00
 categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
+1. [Statistics overview](http://www.projectmathsbooks.com/wp-content/uploads/2014/01/Stats-Diagram.png)
 1. [Udacity d3 visualizations great course](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 1. [RAW upload some data, (massage before and after) choose chart, share it](http://raw.densitydesign.org/)
 1. [Dimplejs charts on top of D3](http://dimplejs.org/)
