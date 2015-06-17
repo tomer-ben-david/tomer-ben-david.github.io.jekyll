@@ -16,3 +16,4 @@ comments: true
 1. [Learn vim while playing](http://vim-adventures.com/)
 1. [How glibc malloc works](https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/)
 1. [SQL Introduction](https://www.khanacademy.org/computing/computer-programming/sql)
+1. [Mark Zukerberg 2005 - if you are building a statup listen to this one](https://www.youtube.com/watch?v=xFFs9UgOAlE)
