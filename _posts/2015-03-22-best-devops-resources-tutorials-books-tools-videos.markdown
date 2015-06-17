@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Best hardcore programming resources - tutorials, videos, books"
+title:  "Best devops resources - tutorials, videos, books"
 date:   2015-05-15 22:18:00
 categories: programming,devops
 comments: true
