@@ -6,6 +6,8 @@ categories: machine-learning,scala,functional-programming,scalding
 comments: true
 ---
 1. [Statistics overview](http://www.projectmathsbooks.com/wp-content/uploads/2014/01/Stats-Diagram.png)
+1. [Scala Plot - wisp](https://github.com/quantifind/wisp)
+1. [Spark notebook](https://github.com/andypetrella/spark-notebook)
 1. [Advanced Analytics with spark Best spark and general machine learning with scala book](http://www.amazon.com/Advanced-Analytics-Spark-Patterns-Learning-ebook/dp/B00VKTMQCK/ref=pd_sim_351_9?ie=UTF8&refRID=1FXWGZ5Y3W0M0QPE9SF6)
 1. [Udacity d3 visualizations great course](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 1. [RAW upload some data, (massage before and after) choose chart, share it](http://raw.densitydesign.org/)
