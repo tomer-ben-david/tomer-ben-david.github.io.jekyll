@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trying to understand monads"
-date:   2015-05-29 22:18:00
+date:   2014-04-29 22:18:00
 categories: scala,functional-programming
 comments: true
 ---
