@@ -5,6 +5,7 @@ date:   2015-05-06 22:18:00
 categories: programming, web, UI
 comments: true
 ---
+1. [Play AngularJS Bootstrap excellent video lecture!](https://www.youtube.com/watch?v=qlBYcR60npU)
 1. [Play AngularJS Boostrap SBT](https://github.com/spass/spass)
 1. [bubble.is build amazing web sites without programming!](https://bubble.is/)
 1. [xtensio amazing for building your company web page!!](http://xtensio.com/)

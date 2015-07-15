@@ -9,6 +9,7 @@ Here I will describe all that I watch, read which is well worth reading/watching
 
 **May 2011**
 
+* [stock market simply wall street](https://simplywall.st/snowflake/grid)
 * [Introduction to category theory - great lecture by Ken Scambler!](https://www.youtube.com/watch?v=jDhMDgU7Koc)
 * [The upside of irrationality - Dan Arielly](https://www.youtube.com/watch?v=QAS8w3YXxmk)
 * [Jamey allen on what you need to know about lambda](http://www.slideshare.net/jaxLondonConference/what-you-need-to-know-about-lambdas-jamie-allen-typesafe)
