@@ -5,6 +5,7 @@ date:   2015-03-22 22:18:00
 categories: programming
 comments: true
 ---
+1. [Excellent article about garbage collection](http://www.dynatrace.com/en/javabook/reduce-garbage-collection-pause-time.html)
 1. [Daniel Miessler on programming](https://danielmiessler.com/study/pvsnp/)
 1. [What every developer should know about memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 1. [Google guide for being a programmer](https://www.google.com/about/careers/students/guide-to-technical-development.html)
