@@ -5,6 +5,7 @@ date:   2015-05-22 22:18:00
 categories: scala,functional-programming,scalding
 comments: true
 ---
+1. [map, flatMap, for comprehension - must read](http://stackoverflow.com/questions/14598990/confused-with-the-for-comprehension-to-flatmap-map-transformation)
 1. [Learn scala by practicing](http://scala-exercises.47deg.com/)
 1. [KenScambler - clear but deep functional theory! (to really understand map,flatmap,for - I mean for real!](https://twitter.com/KenScambler)
 1. [KenScambler - Essense of Iterator pattern](https://github.com/kenbot/MSUG-Essence-Iterator-Pattern)
