@@ -5,6 +5,9 @@ date:   2015-03-22 22:18:00
 categories: programming
 comments: true
 ---
+1. [Oracle whitepaper on memory management](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf)
+1. [G1 garbage collection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.6386&rep=rep1&type=pdf)
+1. [Garbage collection turning](http://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications)
 1. [Excellent article about garbage collection](http://www.dynatrace.com/en/javabook/reduce-garbage-collection-pause-time.html)
 1. [Daniel Miessler on programming](https://danielmiessler.com/study/pvsnp/)
 1. [What every developer should know about memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
