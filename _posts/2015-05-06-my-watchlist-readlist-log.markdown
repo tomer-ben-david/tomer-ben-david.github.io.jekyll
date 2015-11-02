@@ -7,7 +7,10 @@ comments: true
 ---
 Here I will describe all that I watch, read which is well worth reading/watching! (I will only list stuff I would want to watch/read again myself and I have the higest standards ;)
 
-**May 2011**
+**Nov 2015**
+1. [Javascript for C# and Java developers](http://www.infoq.com/presentations/javascript-c-sharp?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+
+**May 2015**
 
 * [stock market simply wall street](https://simplywall.st/snowflake/grid)
 * [Introduction to category theory - great lecture by Ken Scambler!](https://www.youtube.com/watch?v=jDhMDgU7Koc)
