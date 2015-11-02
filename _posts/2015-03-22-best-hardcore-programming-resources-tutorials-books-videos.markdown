@@ -5,6 +5,9 @@ date:   2015-03-22 22:18:00
 categories: programming
 comments: true
 ---
+1. [Great javascript lecture](http://www.infoq.com/presentations/javascript-c-sharp?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+1. [Functional programming in java](https://manning.com/books/functional-programming-in-java)
+1. [Grokking Algorithms](https://books.google.co.il/books?id=yQRErgEACAAJ&dq=Grokking+Algorithms&hl=en&sa=X&redir_esc=y)
 1. [Oracle whitepaper on memory management](http://www.oracle.com/technetwork/java/javase/memorymanagement-whitepaper-150215.pdf)
 1. [G1 garbage collection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.6386&rep=rep1&type=pdf)
 1. [Garbage collection turning](http://engineering.linkedin.com/garbage-collection/garbage-collection-optimization-high-throughput-and-low-latency-java-applications)

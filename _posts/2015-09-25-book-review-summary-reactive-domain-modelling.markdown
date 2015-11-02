@@ -14,4 +14,5 @@ comments: true
 ---
 
 # 3. Designing Functional Domain Models
-1. 
+1. So a `module`, as defined in a functional domain model, is a collection of `functions` that
+   operate on a set of `types` and honor a set of `invariants` that we call `domain rules`
