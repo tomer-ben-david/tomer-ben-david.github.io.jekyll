@@ -5,7 +5,7 @@ date:   2015-05-06 22:18:00
 categories: programming, web, UI, philosophy, mobile
 comments: true
 ---
-Here I will describe all that I watch, read which is well worth reading/watching! (I will only list stuff I would want to watch/read again myself and I have the higest standards ;)
+Here I will describe all that I watch, read which is **well worth reading/watching!**  (I will only list stuff I would want to watch/read again myself and I have the higest standards ;)
 
 **Nov 2015**
 1. [Javascript for C# and Java developers](http://www.infoq.com/presentations/javascript-c-sharp?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
