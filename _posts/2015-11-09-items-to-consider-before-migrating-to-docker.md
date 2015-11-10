@@ -4,7 +4,6 @@ title:  "Items to consider before migrating to docker"
 date:   2015-11-09 22:18:00
 categories: devops, programming, functional-programming
 comments: true
-published:false
 ---
 1. **First consider the exact reasons you adopt `docker`**, or better, in it's generalized form - for adopting `containerized` packaging and deployments methodology.  Believe it or not, it's easy to get mislead by all the rumours spread around.  A good answer for the question, why am I changing my deployment architecture to containerized based deployments would be that you are a developer who appreciates with caution the concept of immutability and `functional-programming`.  In this case `containers` allows you to deploy these concepts into your deployments.  Having `containerized` deployments allows you to have `immutable deployments` in a much easier and fun way.  By having your containers `read-only` you may even come closer to the concept of `pure deployments` where you do no modifications but only replacements.  A mostly bad answer would be because you think it will improve the performance of a certain server.  Having that issue solved let's move on the next items to consider before you take action.  *the game where you push one thing and another one pops out hopefully with one eye out*
 
