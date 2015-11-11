@@ -17,3 +17,9 @@ comments: true
 1. So a `module`, as defined in a functional domain model, is a collection of `functions` that
    operate on a set of `types` and honor a set of `invariants` that we call `domain rules`
 **3.2.2 Composition with computation** the monadic form of computation is that `success` propogates forward and a single `failure` in the middle exits the computation this means that all sevices we run in computation one after another need to support the monadic form of computation.
+**3.3 Life cycle** 
+
+1. *Remember that `aggregate` is the complete domain entity that describes a central concept of the domain model.*
+1. Favour skinny domain model.
+1. Factories return objects which are *minimally* valid.
+
