@@ -20,3 +20,6 @@ The history of software development wars.
 1. **The monolith VS micro services architectures.**  You m ight think that the monolith has lost but it has not fully lost the battle.
 
 * draw maps of attacks counter attacks etc.
+* picture of Scala air bomber model 2.10 change or scatch cartoon of the bomber to show version 2.10  dumping types on what was previously a rather groovy code.
+* intellij va vim and emacs
+* can draw Einstein in his famous picture only near some Scala code maybe there is already a tool which can do that.
