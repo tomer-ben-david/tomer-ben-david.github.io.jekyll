@@ -6,9 +6,6 @@ categories: scala, functional-programming
 comments: true
 published: true
 ---
-Map and flatMap the missing explanation
----------------------------------------
-
 **Map**
 
 1. you provide a function to map item -> item
