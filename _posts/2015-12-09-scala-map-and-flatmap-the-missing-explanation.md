@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scala Map and flatMap the missing explanation"
+title:  "Scala map and flatMap the missing explanation"
 date:   2015-12-09 22:18:00
 categories: scala, functional-programming
 comments: true
