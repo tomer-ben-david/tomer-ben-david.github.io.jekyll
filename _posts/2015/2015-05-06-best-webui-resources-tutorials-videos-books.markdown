@@ -18,3 +18,4 @@ comments: true
 1. [angular js - all aspects total js framework](https://angularjs.org/)
 1. [Build cool webapps with templates with rails](https://www.baserails.com/)
 1. [vertx.io for reactive java server side backend](vertx.io)
+1. [Javascript this keyword](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
