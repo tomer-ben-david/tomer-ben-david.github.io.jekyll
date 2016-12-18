@@ -3,7 +3,7 @@ description: (And other non important stuff such as life, death, philosophy, his
 meta_description: "Tomer Ben David on Software Development"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title.html
 logo: false
 paginate: 15
