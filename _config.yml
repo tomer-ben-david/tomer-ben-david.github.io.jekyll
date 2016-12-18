@@ -2,7 +2,7 @@ name: Tomer Ben David on Software Development
 description: (And other non important stuff such as life, death, philosophy, history, physics, and math).
 meta_description: "Tomer Ben David on Software Development"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:title.html
 logo: false
