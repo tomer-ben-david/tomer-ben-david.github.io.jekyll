@@ -12,3 +12,6 @@ comments: true
 `docker run --volumes-from r1 -it ubuntu ls /data`
 
 (motivation: no need to mount same volume twice code duplication)
+
+**mount `/docker/redis-data` as read only volume**
+`docker run -v /docker/redis-data:/data:ro -it ubuntu rm -rf /data`
