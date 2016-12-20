@@ -6,5 +6,4 @@ categories: cheatsheet,containers,devops
 comments: true
 ---
 **docker mount volume**
-
 `docker run -v /some/local/dir:dirindocker redis`
