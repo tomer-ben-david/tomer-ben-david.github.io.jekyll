@@ -7,3 +7,8 @@ comments: true
 ---
 **docker mount volume**
 `docker run -v /some/local/dir:dirindocker redis`
+
+**take volume mounted on r1 container and mount to ubuntu**
+`docker run --volumes-from r1 -it ubuntu ls /data`
+
+(motivation: no need to mount same volume twice code duplication)
