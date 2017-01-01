@@ -18,7 +18,7 @@ Now your `nodejs` process (`V8`) is listening on port `5858`
 **Step 2 run `node-inspector`**
  
 ```commandline
-# node-inspector --web-port=8081
+# node-inspector --web-port=8081 --save-live-edit
 Node Inspector v0.12.8
 Visit http://127.0.0.1:8081/?port=5858 to start debugging.
 ```
