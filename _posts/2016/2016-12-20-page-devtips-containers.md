@@ -24,3 +24,9 @@ comments: true
 `docker logs redis-server`
 
 note your possibilities with logs are to `stdout/stderr` or you can redirect to `syslog` this can be useful if you already have systems which take syslog and manage it.
+
+**auto restart**
+
+`docker run -d --name restart-3 --restart=on-failure:3 scrapbook/docker-restart-example`
+
+auto restart on `exitcode !== 0` up to 3 times.
