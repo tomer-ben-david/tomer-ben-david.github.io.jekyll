@@ -30,3 +30,5 @@ note your possibilities with logs are to `stdout/stderr` or you can redirect to 
 `docker run -d --name restart-3 --restart=on-failure:3 scrapbook/docker-restart-example`
 
 auto restart on `exitcode !== 0` up to 3 times.
+
+`restart-always`: will restart it indefinitely. 
