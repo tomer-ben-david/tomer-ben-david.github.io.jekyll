@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NodeJS cheasheet"
+title:  "R cheasheet"
 date:   2017-01-08 22:18:00
 categories: cheatsheet,R
 comments: true
