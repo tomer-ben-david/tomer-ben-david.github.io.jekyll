@@ -13,3 +13,10 @@ matplot(df$V4, type="l")
 ```
 
 in column 4 we have the heapmem it will produce the linechart.
+
+**Getting help and examples**
+
+```r
+help(read.table)
+example(read.table)
+```
