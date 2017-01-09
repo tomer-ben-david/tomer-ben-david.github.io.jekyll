@@ -19,4 +19,6 @@ in column 4 we have the heapmem it will produce the linechart.
 ```r
 help(read.table)
 example(read.table)
+vignettes() # PDF documentation on a topic.
+vignettes(package = .packages(all.available = TRUE)) # include more non standard topics.
 ```
