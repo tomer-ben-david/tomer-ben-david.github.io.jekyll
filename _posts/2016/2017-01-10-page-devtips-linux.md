@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux cheasheet"
-date:   2016-12-18 22:18:00
+date:   2017-01-10 22:18:00
 categories: cheatsheet,linux
 comments: true
 ---
