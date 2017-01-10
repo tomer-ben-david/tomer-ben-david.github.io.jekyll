@@ -9,6 +9,11 @@ comments: true
 
 `docker ps -a | grep houston | awk '{print $1}' | xargs docker rm`
 
+**Search replace `=enforcing` to `=permissive` in file**
+```bash
+sudo sed -i 's\=enforcing\=permissive\g' /etc/sysconfig/selinux
+```
+
 ## Get public key for example to https://google.com
 
 `$ openssl s_client -connect google.com:443 | openssl x509 -pubkey -noout`
