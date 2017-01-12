@@ -40,3 +40,20 @@ lsof -n -i:4888 | grep LISTEN
 ```
 
 `-n` causes it to run much faster (do not resolve host names)
+
+** iptables **
+
+`/etc/sysconfig/iptables` (iptables configuration)
+
+allow remote connections to port 8140
+
+`-A INPUT -m state --state NEW -m tcp -p tcp --dport 8140 -j ACCEPT`
+
+* `-A`: We are appending a rule.
+* `INPUT`: The rule applies to incoming packets.
+* `-m tcp -p tcp --dport 8140`: The rule applies to `tcp` port 8140.
+* `ACCEPT`: iptables should accept the packets.
+
+reload iptables
+
+`sudo service iptables restart `
