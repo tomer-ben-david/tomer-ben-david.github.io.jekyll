@@ -1,10 +1,16 @@
 ---
 layout: post
 title:  "Containers cheasheet"
-date:   2016-12-20 22:18:00
+date:   2017-01-12 22:18:00
 categories: cheatsheet,containers,devops
 comments: true
 ---
+** check if docker installed only on ubuntu **
+
+`service docker.io status`
+
+`docker.io` because on linux there was already some old service `docker`.
+
 **docker mount volume**
 
 `docker run -v /some/local/dir:dirindocker redis`
