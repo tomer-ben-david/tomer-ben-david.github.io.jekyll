@@ -13,3 +13,11 @@ String.prototype.replaceAll = function(search, replacement) {
     return target.replace(new RegExp(search, 'g'), replacement);
 };
 ```
+
+**Tracing full stacktace with promises**
+
+Use `bluebird` which encapsulates `ecmascript2016` `promises` and call `Promise.longStackTraces();`
+
+or
+
+in chrome devtools enable the `Async` checkbox and youl would see full back stacktraces in error happens.

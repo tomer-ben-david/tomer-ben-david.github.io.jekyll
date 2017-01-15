@@ -57,3 +57,14 @@ allow remote connections to port 8140
 reload iptables
 
 `sudo service iptables restart `
+
+** list processes listening on sockets **
+
+`netstat -tlp`
+
+`l`: listening
+`p`: show process id.
+
+** Show users::groups in system **
+
+`cat /etc/group`
