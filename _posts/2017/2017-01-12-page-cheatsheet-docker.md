@@ -1,10 +1,27 @@
 ---
 layout: post
-title:  "Containers cheasheet"
+title:  "Docker cheasheet"
 date:   2017-01-12 22:18:00
 categories: cheatsheet,containers,devops
 comments: true
 ---
+**docker run**
+
+argument to `docker run` such as `/bin/bash` overrides and `CMD` command we wrote in `Dockerfile`
+
+`ENTRYPOINT` cannot be overriden at run time with normal commands `docker run <command>` what we do specify at the end of `docker run <command>` is provided as arguments to the `ENTRYPOINT` in this way a container is as a binary as `ls`.
+
+so `CMD` can act as default parameters to `ENTRYPINT` and then we can override the `CMD` args from `<command>`.
+
+`ENTRYPOINT` can be overriden with `--entrypoint`
+
+**ENV**
+
+```bash
+ENV key=value key2=value
+CMD $key $key2
+```
+
 **docker info**
 
 `docker info`: shows summary of how many containers we have how many images.
@@ -24,9 +41,11 @@ shows lot of info about the container you can view them directly at:
 
 `ls -l /var/lib/docker/containers/3487jhf.../` `config.json` shows the `inspect` value.
 
+on mac there is a vm image: `ls -lh ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/`
+
 **docker attach**
 
-attaches to `PID1` of the container so if PID1 is not ssh, what can we do? 
+attaches to `PID1` of the container so if PID1 is not ssh, here is what we do:
 
 `docker exec -it 87sdfhsjh /bin/bash`
 
@@ -48,7 +67,7 @@ shows all process inside the docker container but it shows the `PID` from outsid
 
 **docker stop**
 
-it sends a `SIGTERM` to the containers `PID1` and the container terminates when PID1 terminates
+it sends a `SIGTERM` to the container `PID1` and the container terminates when PID1 terminates
  
 **sending other sigterms**
 
@@ -65,6 +84,10 @@ reads the images and `stacks` them one on another and adds a new writable top la
 `docker.io` because on linux there was already some old service `docker` (so to install `sudo apt-get install docker`)
 
 **docker mount volume**
+
+when deleting a container without `-v` the volumes are not deleted so delete with
+
+`docker rm -v <container>`
 
 **security `docker group`**
 
@@ -102,7 +125,10 @@ if you edited a file inside the consitner and you stop and start your container 
 
 **logs**
 
-`docker logs redis-server`
+```bash
+docker logs redis-server
+docker logs -f redis-server # like tail -f
+```
 
 note your possibilities with logs are to `stdout/stderr` or you can redirect to `syslog` this can be useful if you already have systems which take syslog and manage it.
 
