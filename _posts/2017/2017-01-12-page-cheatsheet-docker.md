@@ -5,6 +5,10 @@ date:   2017-01-12 22:18:00
 categories: cheatsheet,containers,devops
 comments: true
 ---
+**ubuntu bin/bash docker**
+
+`docker run -it ubuntu /bin/bash`
+
 **docker run**
 
 argument to `docker run` such as `/bin/bash` overrides and `CMD` command we wrote in `Dockerfile`
@@ -185,3 +189,71 @@ first tag
 docker tag 2347823hfj tomerbregistry/helloworldrepo:1.0
 docker push tomerbregistry/helloworldrepo:1.0
 ```
+
+**networking**
+
+`docker0`: a `bridge`
+
+install `bridge-utils` to see details on it.
+
+`brctl show docker0`
+
+when you `ping` or do any `networking` operation from within `docker0` the packets go through the `docker0` bridge.   you can see it with `traceroute google.com`
+
+in `Dockerfile`: `EXPOSE 80`: Makes it possible to expose port 80, we still need to run `-p 5020:80` localhost 5020 forwarded to 80 on container.
+
+`docker port yourcontainer`: view exposed port.
+
+by default ports are `tcp` if you want udp add it:
+
+`docker run -d -p 5002:80/udp --name=yourcontainer apache`
+
+attach a port to a different ip existing in host (for example if host has `eth0` and `eth1` each with its own ip):
+
+`docker run -d -p 192.168.56.50:5003:80 --name=web3 apache-img`
+
+`P`: capital p will automatically map the exposed ports from `Dockerfile` into random ports on host.
+
+assign different address to `docker0` it has a specific network address it tries in case all are captured:
+
+```bash
+service docker stop
+ip a
+ip link del docker0
+vi /etc/default/docker
+  DOCKER_OPTS=--bip=150.150.0.1./24 # bip = bridge ip.
+service docker start
+```
+
+any new container or old container that restarts will get an ip from the new range.
+
+**linking containers**
+
+safer because ports are not exposed.  we have a `src` and `rcvr` container the `src` when linked initially communicates with the `receiver` container and tells it what's its `EXPOSE` ports from the `Dockerfile` in this way the `receiver` container can communicate to these ports.  When linking containers the `--name` is important so that we link to this name.
+
+`docker run --name=receiver --link=src:alias-src -it ubuntu:15.04 /bin/bash` you need to alias the `src`
+
+what docker did is that in the `receiver` container docker updated the `hosts` file and `env variables` with the `src` container ip and port the `apps` that uses the other container need to use these environemnt variables in order to use the other container.
+
+**troubleshooting containers**
+
+```bash
+service docker stop
+docker -d -l debug &
+```
+
+or edit the `docker config file at /etc/default/docker` add to that file `DOCKER_OPTS=--log-level=debug`
+
+* Start docker `daemon` in debug mode.
+
+**When Dockerfile build fails**
+
+```bash
+docker images
+```
+
+you will see the latest successful image created, run it with `docker run -it 7e8yfushfjh /bin/bash` and try that command and troubleshoot why `Dockerfile` failed.
+
+
+
+

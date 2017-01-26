@@ -93,3 +93,4 @@ disown -h # disconnect from my user so when I terminate terminal I wont have it.
 **resources**
 
 1. [mastering bash and terminal](http://www.blockloop.io/mastering-bash-and-terminal)
+1. [bash cheatsheet](https://github.com/remigiusz-suwalski/programming-cheatsheets/tree/master/bash)

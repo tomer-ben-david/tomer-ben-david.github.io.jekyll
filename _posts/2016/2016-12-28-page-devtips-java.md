@@ -32,5 +32,9 @@ while (sc.hasNextLine()) {
 import java.util.stream.*;
 import java.util.regex.*;
 
-Stream stream = Pattern.compile(" ").splitAsStream(scanner.nextLine());
+Stream stream = Pattern.compile(" ").splitAsStream(scanner.nextLine()); // O(1)
+
+// or simpler but would read the string completely and split to array // O(2)
+
+Arrays.stream(sc.nextLine().split(" ")).forEach(item -> {});
 ```                

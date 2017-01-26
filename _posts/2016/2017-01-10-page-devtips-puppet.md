@@ -5,14 +5,45 @@ date:   2017-01-10 22:18:00
 categories: cheatsheet,puppet,devops
 comments: true
 ---
-** invoke (run) a class **
+**simple puppet manifest**
+
+```ruby
+node 'yourhostname' {
+    file { '/test.txt':
+        ensure => 'present',
+        content => inline_template("this is a test <%= Time.now %>\n"),
+    }
+}
+```
+
+**print**
+
+```ruby
+class someclass {
+  ...
+  notify {'test test':}
+}
+
+node 'mynode' {
+    class { '::printosfamily': }
+}
+
+class printosfamily {
+    notify { 'OsFamilyTest':
+        withpath => true,
+        name => "my osFamily is ${::osfamily}",
+     }
+}
+```
+
+**invoke (run) a class**
 
 ```class { '::apache': }```
 
 * the above command runs the puppet class 'apache'.
 * `::` at the beginning of `apache` means that we are looking for a `top level` apache, meaning not an apache not defined as top level class inside another module. 
 
-** condition `if` **
+**condition `if`**
 
 ```ruby
 if $osfamily == 'redhat' {
@@ -22,31 +53,31 @@ if $osfamily == 'redhat' {
 }
 ```
 
-** ordering **
+**ordering**
 
 `File['/var/www/html/index.html'] -> Vcsrepo['/var/www/html']`
 
 execute first the `index.html` resoure and only then the `/var/www/html`.
 note the uppercase in `File` and `Vcsrepo`
 
-** install a module maintained by 'puppet labs' **
+**install a module maintained by 'puppet labs'**
 
 on puppet master:
 
 `sudo puppet module install puppetlabs-apache --modulepath /etc/puppet/environments/production/modules`
 
-** Puppet ssl keys dir **
+**Puppet ssl keys dir**
 
 ```/var/lib/puppet/ssl```
 
-** Restore or get history file after puppet change **
+**Restore or get history file after puppet change**
 
 ```sudo puppet filebucket -l --bucket /var/lib/puppet/clientbucket restore /info.txt c62hfejd67kjsdhfksjhfkjh276```
 ```sudo puppet filebucket -l --bucket /var/lib/puppet/clientbucket get /info.txt c62hfejd67kjsdhfksjhfkjh276```
 
 * ```/var/lib/puppet/clientbucket```: where the local pre change changes are stored.
 
-** Variable based on osfamily **
+**Variable based on osfamily**
 
 ```ruby
 $ntpservice = $osfamily ? {
@@ -65,7 +96,7 @@ service { $ntpservice:
 }
 ```
 
-** Reuse code - `classes` **
+**Reuse code - `classes`**
 
 define class:
 
@@ -85,7 +116,7 @@ node 'wiki': {
 }
 ```
 
-** run same command for array **
+**run same command for array**
 
 ```ruby
 class linux {
@@ -98,7 +129,7 @@ class linux {
 }
 ```
 
-** Generate puppet module **
+**Generate puppet module**
 
 ```ruby
 cd /etc/puppet/environmentsproduction/modules
