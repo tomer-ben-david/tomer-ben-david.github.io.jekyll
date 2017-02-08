@@ -5,4 +5,4 @@ date:   2015-05-22 22:18:00
 categories: startup,entrepreneurship
 comments: true
 ---
-1. [Fiverr get things done for $5](http://fiverr.com)
+1. (excellent plotting see also github project for all your data sources)[https://redash.io]
