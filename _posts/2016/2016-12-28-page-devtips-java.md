@@ -5,6 +5,11 @@ date:   2016-12-28 22:18:00
 categories: cheatsheet,java
 comments: true
 ---
+```java
+Arrays.copyOfRange([1,2,3], 1, [1,2,3].length);  // subarray from 1 to length array
+
+```
+
 **Initialize 2 dim array**
 
 ```java
