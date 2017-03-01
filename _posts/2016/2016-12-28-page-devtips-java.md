@@ -43,3 +43,14 @@ Stream stream = Pattern.compile(" ").splitAsStream(scanner.nextLine()); // O(1)
 
 Arrays.stream(sc.nextLine().split(" ")).forEach(item -> {});
 ```                
+
+```java
+// calculate total sum with streams.
+int totalSum = Arrays.stream(lineAsStr.split(" "))
+            .map(numAsStr -> Integer.valueOf(numAsStr))
+            .reduce(0, (sum, n) -> sum += n);
+```
+
+## Resources
+
+1. [Java Stream Tutorial](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
