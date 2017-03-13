@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Linux cheasheet"
-date:   2017-01-15 22:18:00
-categories: cheatsheet,linux,bash
+date:   2017-03-13 22:18:00
+categories: cheatsheet,linux,bash,centos
 comments: true
 ---
 **Pass result of `awk` into `kill` or another command**
@@ -89,6 +89,25 @@ bg
 fg
 disown -h # disconnect from my user so when I terminate terminal I wont have it.
 ```
+
+￿**Installing local yum repository on centos 7**
+
+```bash
+yum install vsftpd # => very secure ftpd.
+
+systemctl enable vsftpd # => enable sftpd service.
+systemctl start vsftpd # => start sftpd service.
+
+yum install createrepo # => for creation of local repository.
+
+mkdir /var/ftp/pub/localrepo # => this is where our local repo is.
+
+cp -ar /mnt/Packages/*.* /var/ftp/pub/localrepo/ # => copy an existing repo to your localrepo.
+
+vi /etc/yum.repos.d/localrepo.repo # => point to the local repo.
+```
+
+[https://www.unixmen.com/setup-local-yum-repository-centos-7/](https://www.unixmen.com/setup-local-yum-repository-centos-7/)
 
 **resources**
 
