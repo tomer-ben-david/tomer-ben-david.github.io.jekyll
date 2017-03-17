@@ -5,6 +5,8 @@ date:   2015-05-06 22:18:00
 categories: programming, web, UI
 comments: true
 ---
+1. [Learn CSS Layout](http://learnlayout.com/)
+
 1. [Wufoo create forms without server](http://www.wufoo.com/)
 1. [layoutit - Drag and drop bootstrap UI components](http://www.layoutit.com/)
 1. [Play AngularJS Bootstrap excellent video lecture!](https://www.youtube.com/watch?v=qlBYcR60npU)
