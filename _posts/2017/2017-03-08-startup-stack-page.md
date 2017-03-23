@@ -5,9 +5,16 @@ date:   2017-03-08 22:18:00
 categories: startup,entrepreneurship
 comments: true
 ---
-## Marketing
+## Startuping and bootstraping
+1. [levels.io bootstraping](https://levels.io/bootstrapping/)
+
+## Marketing and Bootstraping startup
+1. [Buffer multipost](https://buffer.com)
 1. [NinjaBlaster](http://ninjablaster.com/)
 2. [Hootsuite]()
+
+## Build
+1. [Polygot Maven](https://github.com/takari/polyglot-maven)
 
 ## Version control
 
