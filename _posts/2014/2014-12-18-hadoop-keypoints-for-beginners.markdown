@@ -4,6 +4,7 @@ title:  "Hadoop keypoints for beginners"
 date:   2014-12-18 10:18:00
 categories: dev,datascience
 comments: true
+published: false
 ---
 
 #### Key Concepts
