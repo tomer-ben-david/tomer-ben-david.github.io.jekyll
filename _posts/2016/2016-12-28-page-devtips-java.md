@@ -6,6 +6,11 @@ categories: cheatsheet,java
 comments: true
 ---
 ```java
+System.out.printf("%3d    ", n); // print number with spaces.
+```
+
+
+```java
 Arrays.copyOfRange([1,2,3], 1, [1,2,3].length);  // subarray from 1 to length array
 
 ```

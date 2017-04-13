@@ -8,6 +8,10 @@ comments: true
 ## Startuping and bootstraping
 1. [levels.io bootstraping](https://levels.io/bootstrapping/)
 
+## UI
+1. [flatuicolors](flatuicolors.com)
+1. [color schemas](https://styled-components.com/color-schemer/)
+
 ## Marketing and Bootstraping startup
 1. [Buffer multipost](https://buffer.com)
 1. [NinjaBlaster](http://ninjablaster.com/)
