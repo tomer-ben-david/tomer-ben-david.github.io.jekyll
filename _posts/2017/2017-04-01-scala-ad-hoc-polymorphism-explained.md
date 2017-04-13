@@ -4,6 +4,7 @@ title:  "Scala ad hoc polymorphism explained"
 date:   2017-03-13 22:18:00
 categories: dev,scala,functional-programming
 comments: true
+published: false
 ---
 
 ## Introduction
