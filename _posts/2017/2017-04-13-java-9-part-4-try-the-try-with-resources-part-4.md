@@ -2,9 +2,9 @@
 layout: post
 title:  "Java 9 Part 4 - Try the try with resources"
 date:   2017-04-13 22:18:00
-categories: dev,java,functional-programming
+categories: java,java9,java 9,resources, tutorials, try with resources, design patters, software design
 comments: true
-published: true
+published: false
 ---
 
 ## Introduction
