@@ -4,7 +4,7 @@ title:  "Java 9 Part 3 - Super Interfaces"
 date:   2017-04-13 22:18:00
 categories: dev,java,functional-programming
 comments: true
-published: false
+published: true
 ---
 
 ## Introduction
