@@ -5,7 +5,13 @@ date:   2017-04-22 22:18:00
 categories: cheatsheet,hadoop,bigdata
 comments: true
 ---
+## Introduction
+
+We have decided to aggregate in a single post the most important things to know about hadoop in a concise way.  Let's us know if you have any comments!
+
 <iframe src="https://drive.google.com/file/d/0B3YbDgIxeEikMFF4MW83WWI4XzQ/preview" width="640" height="480"></iframe>
+
+## Hadoop
 
 ```bash
 HDFS
@@ -26,3 +32,7 @@ NodeManager # => Like `Datanode` for computing, offer computational resources ru
 
 ApplicationMaster # => Each application has `ApplicationMaster` process which negotiates resources with `ResourceManager` which delivers a `container` descriptor back to `ApplicationMaster` processa and asks `NodeManager` to launch the `container.` 
 ```
+
+## Summary
+
+We kept that post small so you could rest :), but in general we went through what NameNode, DataNode, Block, ResourceManager, NodeManager, ApplicationMaster, Task are in a very short and concise way, isn't that just great :) If you liked it please hit the share button below and leave a comment for any comment! :)
