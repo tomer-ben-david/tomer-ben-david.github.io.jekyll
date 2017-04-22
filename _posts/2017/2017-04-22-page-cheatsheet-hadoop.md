@@ -5,7 +5,7 @@ date:   2017-04-22 22:18:00
 categories: cheatsheet,hadoop,bigdata
 comments: true
 ---
-![HadoopYarn](https://lh4.googleusercontent.com/uJYGTfZvHSf0UgW7QN7bKvTWHeh0epy9bfo-qmRwocuAM8YfAjDDTYFQRrmPK6DExgOxi4lmM0svcP4=w2880-h1560-rw)
+<iframe src="https://drive.google.com/file/d/0B3YbDgIxeEikMFF4MW83WWI4XzQ/preview" width="640" height="480"></iframe>
 
 ```bash
 HDFS
