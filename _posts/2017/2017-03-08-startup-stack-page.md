@@ -17,6 +17,10 @@ comments: true
 1. [NinjaBlaster](http://ninjablaster.com/)
 2. [Hootsuite]()
 
+## Documentation
+
+1. [XWiki](http://xwiki.org)
+
 ## Build
 1. [Polygot Maven](https://github.com/takari/polyglot-maven)
 
