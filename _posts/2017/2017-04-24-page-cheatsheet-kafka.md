@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Akka CheaSheet"
+title:  "Kafka CheatSheet"
 date:   2017-04-22 22:18:00
 categories: cheatsheet,kafka,reactive,dev
 comments: true
