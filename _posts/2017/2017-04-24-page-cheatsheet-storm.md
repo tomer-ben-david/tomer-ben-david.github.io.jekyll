@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Apache Storm CheaSheet"
+title:  "Apache Storm CheatSheet"
 date:   2017-04-22 22:18:00
 categories: cheatsheet,storm,reactive,dev
 comments: true
