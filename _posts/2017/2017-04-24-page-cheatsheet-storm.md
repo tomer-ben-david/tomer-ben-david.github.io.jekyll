@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Apache Storm CheaSheet"
+title:  "Apache Storm CheatSheet"
 date:   2017-04-22 22:18:00
 categories: cheatsheet,storm,reactive,dev
 comments: true
@@ -9,7 +9,7 @@ comments: true
 
 ## Step1: Comparison to hadoop
 
-1. In `hadoop` jobs finished.  In `storm` they continously ingest events.
+1. In `hadoop` jobs finish (usually and hopefully :).  In `storm` they continously ingest events.
 1. In hadoop you have `jobtracker` In `storm` you have `nimbus` assigning tasks to machines monitoring failures etc.
 1. Each nodes runs `supervisor`, it listens to work and starts and stops `workers` to do some job based on what `nimbus` assigned to it.  `workers` runs subset of topology could run multiple `bolts` for example.
 1. `zookeeper` coordinates `nimbus` and `supervisors`.

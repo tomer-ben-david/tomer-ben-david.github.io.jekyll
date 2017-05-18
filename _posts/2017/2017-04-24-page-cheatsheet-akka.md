@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Akka CheaSheet"
+title:  "Akka CheatSheet"
 date:   2017-04-22 22:18:00
 categories: cheatsheet,akka,reactive,dev
 comments: true
