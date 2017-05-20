@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Startup Stack - tutorials, videos, books"
-date:   2017-03-08 22:18:00
+date:   2017-05-20 22:18:00
 categories: startup,entrepreneurship
 comments: true
 ---
