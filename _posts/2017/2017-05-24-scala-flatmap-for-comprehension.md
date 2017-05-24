@@ -81,5 +81,7 @@ list
 
 You see :) sometimes it does not matter if you use `map` or `flatMap` :) we could translate the above `for-comprehension` either to `map` or `flatMap` and all is well and we are not stressed!
 
-Now let's see where it does matter if we choose `map` or `flatMap`.
+But we didn't conjure here for this case only we have come here for more cases and we suspect that we would need a differnet combination in order to satisfy the mighty `for-comprehension` lets take another case:
+
+
 
