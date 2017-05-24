@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scala flatMap and for comprehension"
-date:   2015-05-22 22:18:00
+date:   2017-05-24 22:18:00
 categories: scala,functional-programming,scalding
 comments: true
 ---
