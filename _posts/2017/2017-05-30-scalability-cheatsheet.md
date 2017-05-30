@@ -32,3 +32,5 @@ def tailrecSum(l: List[Int]): Int = {
 **References**
 
 * Scala High Performance Programming Book by Michael Diamant and Vincent Theron
+
+Originally published at: []https://devatrest.blogspot.com/2017/05/performance-and-scalability-cheatsheet.html](https://devatrest.blogspot.com/2017/05/performance-and-scalability-cheatsheet.html)
