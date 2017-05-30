@@ -5,6 +5,8 @@ date:   2015-05-22 22:18:00
 categories: scala,functional-programming,scalding
 comments: true
 ---
+1. Consider replacing tuple with 3+ items with case classes (will improve performance as well).
+
 1. [scala cheatsheet](https://www.coursera.org/learn/progfun2/supplement/BDqfw/cheat-sheet)
 1. [scala type level programming - high wizardry in the land of scala](https://vimeo.com/28793245)
 1. [map, flatMap, for comprehension - must read](http://stackoverflow.com/questions/14598990/confused-with-the-for-comprehension-to-flatmap-map-transformation)

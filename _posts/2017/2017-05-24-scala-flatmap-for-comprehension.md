@@ -5,7 +5,7 @@ date:   2017-05-24 22:18:00
 categories: scala,functional-programming,scalding
 link: https://stackoverflow.com/a/44182354/345859
 comments: true
----
+--- 
 **Introduction**
 I'm not a scala mega mind so feel free to correct me, but this is how I explain the `flatMap/map/for-comprehension` saga to myself!
 
