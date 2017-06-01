@@ -5,6 +5,7 @@ date:   2017-01-15 22:18:00
 categories: cheatsheet,ruby
 comments: true
 ---
+
 ```ruby
 # mock power2 function.
 
