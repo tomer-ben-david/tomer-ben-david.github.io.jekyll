@@ -7,12 +7,13 @@ comments: true
 ---
 ## Startuping and bootstraping
 1. [levels.io bootstraping](https://levels.io/bootstrapping/)
-
+1. [Many resources for startups](https://siftery.com)
 ## Free images
 
 1. [https://unsplash.com/](https://unsplash.com/)
 
 ## UI
+1. [Choose UI framework](http://todomvc.com/)
 1. [Bootstrap Components Snippets](bootsnipp.com)
 1. [flatuicolors](flatuicolors.com)
 1. [color schemas](https://styled-components.com/color-schemer/)
