@@ -13,7 +13,7 @@ comments: true
 1. [https://unsplash.com/](https://unsplash.com/)
 
 ## UI
-1. [Choose UI framework](http://todomvc.com/)
+1. [todomvc Choose UI framework](http://todomvc.com/)
 1. [Bootstrap Components Snippets](bootsnipp.com)
 1. [flatuicolors](flatuicolors.com)
 1. [color schemas](https://styled-components.com/color-schemer/)
