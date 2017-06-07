@@ -52,8 +52,7 @@ comments: true
 1. [chartio.com](https://chartio.com/)
 1. [similar to redash](http://alternativeto.net/software/redash/)
 
-# General mobile
-
+# Notes
 
 Ionic 2017 Developer Survey
 Help us improve your Ionic experience by letting us know what services and tools you're using to build apps. We will use this feedback to better integrate Ionic with popular services and improve our tools and features. 🔮
