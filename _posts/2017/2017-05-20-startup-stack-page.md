@@ -5,14 +5,18 @@ date:   2017-05-20 22:18:00
 categories: startup,entrepreneurship
 comments: true
 ---
+
 ## Startuping and bootstraping
+
 1. [levels.io bootstraping](https://levels.io/bootstrapping/)
 1. [Many resources for startups](https://siftery.com)
+
 ## Free images
 
 1. [https://unsplash.com/](https://unsplash.com/)
 
 ## UI
+
 1. [todomvc Choose UI framework](http://todomvc.com/)
 1. [Bootstrap Components Snippets](bootsnipp.com)
 1. [flatuicolors](flatuicolors.com)
@@ -25,6 +29,7 @@ comments: true
 1. [android feature graphic](https://www.norio.be/android-feature-graphic-generator/)
 
 ## Marketing and Bootstraping startup
+
 1. [Buffer multipost](https://buffer.com)
 1. [NinjaBlaster](http://ninjablaster.com/)
 2. [Hootsuite]()
