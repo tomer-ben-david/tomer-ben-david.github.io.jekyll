@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Akka CheatSheet"
-date:   2017-04-22 22:18:00
+date:   2017-06-08 22:18:00
 categories: cheatsheet,akka,reactive,dev
 comments: true
 ---
@@ -86,6 +86,16 @@ By default parent actor restarts it's children in case of failure but you can ch
 ```java
 .match(Terminated.class, this::onChildTerminated) // parent actor listening to a bad child terminating.
 ```
+
+### Akka parts
+
+1. Client uses `ActorRef` to send a message to a real actor.
+1. `ActorRef` delivers the message asynchronously to the real actor.
+1. `Dispatcher` for that actor notified a message received.
+1. `Dispatcher` schedules the actor for execution.
+1. `Actor` while running other messages are queued.
+1. `Actor` when done can send message back to `ActorRef`
+1. repeat
 
 ## Summary
 
